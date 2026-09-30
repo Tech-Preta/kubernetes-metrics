@@ -49,7 +49,7 @@ Os dados são disponibilizados em formato JSON e também em formato Prometheus p
 
 ## Requisitos
 
-- Go 1.24 ou superior (para desenvolvimento local)
+- Go 1.25 ou superior (para desenvolvimento local)
 - Docker (para build da imagem)
 - Kubernetes (para deploy)
 - Helm 3.x (para deploy usando o chart)

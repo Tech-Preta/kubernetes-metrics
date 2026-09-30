@@ -1,7 +1,7 @@
 # Dockerfile
 
 # Estágio de build: usa uma imagem Go para compilar a aplicação
-FROM golang:1.24-alpine AS builder
+FROM golang:1.25-alpine AS builder
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
