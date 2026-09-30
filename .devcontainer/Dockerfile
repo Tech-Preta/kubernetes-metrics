@@ -38,7 +38,7 @@ RUN curl -Lo /usr/local/bin/kind https://kind.sigs.k8s.io/dl/v0.21.0/kind-linux-
 RUN curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Golang
-RUN curl -fsSL https://go.dev/dl/go1.24.5.linux-amd64.tar.gz -o go.tar.gz \
+RUN curl -fsSL https://go.dev/dl/go1.25.0.linux-amd64.tar.gz -o go.tar.gz \
     && tar -C /usr/local -xzf go.tar.gz \
     && rm go.tar.gz
 ENV PATH="/usr/local/go/bin:${PATH}"

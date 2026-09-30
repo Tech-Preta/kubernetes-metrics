@@ -30,7 +30,7 @@ maintainer:
 # Tecnologias e linguagens
 technology:
   primary_language: "Go"
-  go_version: "1.24.0"
+  go_version: "1.25.0"
   framework: "Standard Library + Kubernetes client-go"
   architecture: "Microservice/API"
   deployment: "Kubernetes, Docker"
@@ -142,7 +142,7 @@ deployment:
   containerization:
     docker: true
     dockerfile: "Dockerfile"
-    base_image: "golang:1.24.4-alpine"
+    base_image: "golang:1.25-alpine"
     multi_stage: true
 
   orchestration:
